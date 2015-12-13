@@ -1,3 +1,5 @@
+follow below steps in order to install PIG 0.13.0 on Hadoop 2.6.0
+
 sudo su hduser
 cd
 sudo wget http://apache-mirror.rbc.ru/pub/apache/pig/pig-0.13.0/pig-0.13.0.tar.gz
