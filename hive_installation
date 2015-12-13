@@ -24,7 +24,7 @@ hive
 
 if you get some error related to found class and expected Interface i.e. jline error, then delete jline jar using following command
 sudo rm  /usr/local/hadoop/share/hadoop/yarn/lib/jline-0.9.94.jar
- 
+
 once deleted insert this line in .bashrc file
 sudo nano ~/.bashrc
 
