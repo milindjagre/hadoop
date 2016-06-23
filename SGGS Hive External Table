@@ -1,0 +1,20 @@
+create external table TABLE_NAME(
+hostname string,
+day string,
+month string,
+year string,
+hour string,
+minutes string,
+seconds string,
+request string,
+response string)
+row format delimited
+fields terminated by ','
+location 'OUTPUT_DIRECTORY';
+
+
+----------------------------------------------------------------
+Run following queries in order to draw analytics out of this data.
+
+1. /*Top 10 most famous Host Names*/
+select hostname, count(hostname) as count1 from nasa group by hostname sort by count1 desc limit 10;
